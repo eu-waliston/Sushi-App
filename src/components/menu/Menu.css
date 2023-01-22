@@ -1,29 +1,33 @@
+:root {
+    --nav--background: #21243D;
+}
+
+.nav {
+    background-color: #21243D;
+    width: 100%;
+    height: 70px;
+}
+
 .logo__img {
-   width: 90px;
-   height: 90px;
-   
-   margin-top: -10px;
-   margin-left: 5%;
-}
-
-.navbar__itens{
-    display: flex;
-    align-items: center;
-    margin-left: 40%;
-}
-
-.navbar__item {
-    margin-left: 30%;
-    list-style: none;
-    text-transform: capitalize;
-    font-size: 19px;
+    float: left;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .navbar {
-    background-color: #060336;
-    color: #fff;
-    height: 70px;
     display: flex;
-    position: fixed;
-    width: 100%;
+    float: right;
+    margin-right: 10%;
+    
+}
+
+.navbar__itens {
+    position: relative;
+    top: 20px;
+    margin-left: 22px;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
 }
