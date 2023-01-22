@@ -10,11 +10,10 @@ function App() {
     <div className="App">
       <Menu />
 
-      <BrowserRouter>
+      
         <Routes>
           <Route exact path="/" element={<Main />} />
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }

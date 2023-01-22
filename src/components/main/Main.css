@@ -1,12 +1,12 @@
 .main__section {
-  background-image: url("../assets/home--fundo.gif");
+  background-image: url("../assets/menu__fundo.png");
   height: 92.7vh;
   width: 100%;
   background-size: cover;
   position: relative;
   top: 70px;
   background-position: center;
-  filter: contrast(120%);
+  filter: saturate(190%);
 }
 
 .main__h1 {
@@ -25,7 +25,7 @@
 }
 
 span {
-  font-size: 100px;
+  font-size: 85px;
   font-weight: bolder;
   color: #ffffff;
   background-color: #21243d;
@@ -36,8 +36,8 @@ span {
 .main__p {
     color: #ffffff;
     position: relative;
-    top: 25%;
-    font-size: 20px;
+    top: 27%;
+    font-size: 50px;
     margin-left: 15%;
 }
 

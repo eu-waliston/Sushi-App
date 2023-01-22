@@ -40,3 +40,8 @@
     transition: all 0.9s;
     font-weight: bold;
 }
+
+.navbar_LK{
+    text-decoration: none;
+    color: #fff;
+}
