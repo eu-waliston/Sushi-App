@@ -4,4 +4,83 @@
     position: relative;
     top: 70px;
     background-color: #21243d;
+    overflow: hidden;
 }
+
+.grid__item {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top: -70px;
+}
+
+.grid__item  img {
+    border-radius: 100%;
+}
+
+.grid__item  h3, .grid__item p {
+    color: #ffff;
+    text-align: center;
+    position: relative;
+}
+.product__h1 {
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 120px;
+    
+    text-align: center;
+    position: relative;
+    top: -8%;
+    color: #ffff;
+}
+
+.shape__ball1 {
+    position: relative;
+    float: right;
+    width: 120px;
+}
+
+.shape__dot2 {
+    position: relative;
+    float: right;
+    width: 70px;
+    top: -480px;
+}
+
+.shape__wave2 {
+    position: relative;
+    float: right;
+    top: -100px;
+
+}
+
+.shape__dot1 {
+    width: 120px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.shape__wave1 {
+    width: 100px;
+    position: relative;
+    top: 350px;
+    left: 10%;
+}
+
+.shape__ball2 {
+    width: 120px;
+    position: relative;
+    top: -255px;
+}
+
+.pic:hover {
+    transition: all 1.5s;
+    transform: rotate(360deg);
+}
+

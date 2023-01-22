@@ -8,6 +8,7 @@
     height: 70px;
     position: fixed;
     top: 0;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.267);
 }
 
 .logo__img {

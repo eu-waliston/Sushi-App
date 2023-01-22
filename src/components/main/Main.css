@@ -31,6 +31,7 @@ span {
   background-color: #21243d;
   padding: 15px;
   border-radius: 15px;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.267);
 }
 
 .main__p {
@@ -54,6 +55,7 @@ span {
     font-weight: bold;
     background-color: #ffffff;
     border: 1px solid  #21243d;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
 }
 
 .main__btn:hover {
