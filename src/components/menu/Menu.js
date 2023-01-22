@@ -1,6 +1,7 @@
 import { React } from "react";
 import "./Menu.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -12,7 +13,9 @@ const Menu = () => {
       />
 
       <ul className="navbar">
-        <li className="navbar__itens">home</li>
+        <li className="navbar__itens">
+          <Link to={"/"}>home</Link>
+        </li>
         <li className="navbar__itens">product</li>
         <li className="navbar__itens">promo</li>
         <li className="navbar__itens">about</li>

@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
-
-import Rotas from './routes';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from './components/main/Main';
 
 
 function App() {
   return (
     <div className="App">
         <Menu />
-        <Rotas />
+
+        <Routes>
+            <Route exact path="/"  element={ <Main />}/>
+        </Routes>
     </div>
   );
 }
