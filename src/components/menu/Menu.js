@@ -16,7 +16,9 @@ const Menu = () => {
         <li className="navbar__itens">
           <Link to={"/"} className="navbar_LK">home</Link>
         </li>
-        <li className="navbar__itens">product</li>
+        <li className="navbar__itens">
+        <Link to={"/product"} className="navbar_LK">product</Link>
+        </li>
         <li className="navbar__itens">promo</li>
         <li className="navbar__itens">about</li>
         <li className="navbar__itens">contact</li>
