@@ -14,12 +14,21 @@ const Menu = () => {
 
       <ul className="navbar">
         <li className="navbar__itens">
-          <Link to={"/"} className="navbar_LK">home</Link>
+          <Link to={"/"} className="navbar_LK">
+            home
+          </Link>
         </li>
         <li className="navbar__itens">
-        <Link to={"/product"} className="navbar_LK">products</Link>
+          <Link to={"/product"} className="navbar_LK">
+            products
+          </Link>
         </li>
-        <li className="navbar__itens">promo</li>
+
+        <li className="navbar__itens">
+          <Link to={"/promo"} className="navbar_LK">
+            promo
+          </Link>
+        </li>
         <li className="navbar__itens">about</li>
         <li className="navbar__itens">contact</li>
       </ul>

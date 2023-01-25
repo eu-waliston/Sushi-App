@@ -8,7 +8,8 @@
     height: 70px;
     position: fixed;
     top: 0;
-    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.267);
+    box-shadow: 12px 12px 12px rgba(29, 28, 28, 0.171);
+    z-index: 999999;
 }
 
 .logo__img {
