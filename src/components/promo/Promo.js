@@ -53,13 +53,13 @@ const Promo = () => {
           <img
             src={require("../assets/shape__dot_blue5.png")}
             alt="wave"
-            className="img__dot"
+            className="img__dot__bds"
           />
 
           <img
             src={require("../assets/shape__wave_blue1.png")}
             alt="DOT"
-            className="img__wave"
+            className="img__wave__wav"
           />
 
           <h1 className="left__side__h1">Todays Promotion!</h1>
@@ -73,7 +73,7 @@ const Promo = () => {
           <img
             src={require("../assets/shape_bal__blue1.png")}
             alt="circle"
-            className="img__wave"
+            className="img__wave__ball"
           />
         </div>
 

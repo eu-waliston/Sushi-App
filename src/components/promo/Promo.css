@@ -48,18 +48,18 @@
 
 .right__side__h1, .right__side__h3, .right__side__p, .right__side__btn {
     position: relative;
-    right: 40%;
+    right: 230px;
 }
 .right__side__h1 {
     font-size: 70px;
     position: relative;
-    top: 13%;
+    top: 22%;
 }
 
 .right__side__h3, .right__side__p {
     margin-top: 5%;
     position: relative;
-    top: 18%;
+    top: 20%;
 }
 .right__side__h3 {
     font-size: 28px;
@@ -69,8 +69,8 @@
 }
 .right__side__IMG1 {
     position: relative;
-    top: -22%;
-    left: -40%;
+    top: -40px;
+    left: -230px;
 }
 
 .right__side__btn {
@@ -82,10 +82,10 @@
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
     text-transform: capitalize;
     height: 60px;
-    width: 140px;
+    width: 200px;
     border-radius: 50px;
     font-size: 18px;
-    top: 25%;
+    top: 50px;
     position: relative;
 }
 
@@ -99,18 +99,98 @@
 
 .right__side__IMG2 {
     position: absolute;
-    top: -20%;
-    left: 85%;
+    top: -20px;
+    right: 11px;
 }
 
 .right__side__IMG3 {
     position: relative;
-    top: 65%;
-    left: 40%;
+    top: 275px;
+    right: -194px;
 }
 
 /* ---------- PROMO SECTION 2 ---------------- */
 .promo__section2 {
     height: 100vh;
     width: 100%; 
+}
+
+.img__right__side {
+    border-radius: 100%;
+    position: relative;
+    right: 190px;
+    top: 90px;
+}
+
+.rightside__img__dot {
+    position: relative;
+    margin-right: -350px;
+    top: -250px;
+}
+
+.img__dot__rightside__dot {
+    position: relative;
+    margin-right: 17px;
+    top: 205px;
+}
+
+.img__wave__ball {
+    position: relative;
+    top: 400px;
+    margin-left: 650px;
+}
+
+.img__dot__bds {
+    position: relative;
+    top: 150px;
+    margin-left: 550px;
+}
+
+.left__side__btn {
+    position: relative;
+    color: #21243d;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid  #21243d;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
+    text-transform: capitalize;
+    height: 60px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 18px;
+    top: 399px;
+    margin-left: 200px;
+    position: relative;
+}
+
+.left__side__btn:hover {
+    transition: all 0.9s;
+    color: #ffffff;
+    background-color: #21243d;
+    cursor: pointer;
+    border: 1px solid  #ffffff;
+}
+
+.left__side__h1, .left__side__h3, .left__side__p {
+    position: relative;
+    top: 280px;
+    left: 200px;
+}
+
+.left__side__h1 {
+    font-size: 70px;
+}
+.left__side__h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.left__side__h3, .left__side__p {
+    position: relative;
+    top: 320px;
+    left: 210px;  
+}
+.img__wave__wav {
+    position: relative;
+    left: 200px;
+    top: 250px;
 }
