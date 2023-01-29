@@ -6,18 +6,19 @@ import Main from "./components/main/Main";
 import Menu from "./components/menu/Menu";
 import Product from "./components/product/Product";
 import Promo from "./components/promo/Promo";
+import About from "./components/about/About";
 
 function App() {
   return (
     <div className="App">
       <Menu />
-
       
-        <Routes>
-          <Route exact path="/" element={<Main />} />
-          <Route exatc path="/product"  element={ <Product />}/>
-          <Route exatc path="/promo"  element={ <Promo />}/>
-        </Routes>
+      <Routes>
+        <Route exact path="/" element={<Main />} />
+        <Route exatc path="/product" element={<Product />} />
+        <Route exatc path="/promo" element={<Promo />} />
+        <Route exatc path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 }

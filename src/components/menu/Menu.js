@@ -29,7 +29,11 @@ const Menu = () => {
             promo
           </Link>
         </li>
-        <li className="navbar__itens">about</li>
+        <li className="navbar__itens">
+          <Link to={"/about"} className="navbar_LK">
+            about
+          </Link>
+        </li>
         <li className="navbar__itens">contact</li>
       </ul>
     </div>
