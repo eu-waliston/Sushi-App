@@ -32,6 +32,12 @@
     z-index: 2;
 }
 
+.left__sideIMG2:hover {
+    transition: all 0.8s;
+    transform: scale(1.2);
+    box-shadow: 6px 6px 21px rgba(0, 0, 0, 0.192);
+}
+
 .left__sideIMG3 {
     position: relative;
     z-index: 1;
@@ -120,6 +126,12 @@
     position: relative;
     right: 190px;
     top: 90px;
+}
+
+.img__right__side:hover {
+    transition: all 0.8s;
+    transform: scale(1.2);
+    box-shadow: 4px 4px 21px rgba(0, 0, 0, 0.192);
 }
 
 .rightside__img__dot {
