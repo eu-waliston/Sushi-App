@@ -34,7 +34,11 @@ const Menu = () => {
             about
           </Link>
         </li>
-        <li className="navbar__itens">contact</li>
+        <li className="navbar__itens">
+          <Link to={"/contact"}  className="navbar_LK">
+          contact
+          </Link>
+        </li>
       </ul>
     </div>
   );
