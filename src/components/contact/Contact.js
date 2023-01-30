@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import './Contact.css';
 
@@ -45,10 +46,10 @@ const Contact = () => {
                             or if you have some questions <br />
                             or sugestions everything is great! <br />
                         </p>
-                        <i class="bi bi-instagram icns__ico"></i>
-                        <i class="bi bi-facebook icns__ico"></i>
-                        <i class="bi bi-twitter icns__ico"></i>
-                        <i class="bi bi-whatsapp icns__ico"></i>
+                        <i className="bi bi-instagram icns__ico"></i>
+                        <i className="bi bi-facebook icns__ico"></i>
+                        <i className="bi bi-twitter icns__ico"></i>
+                        <i className="bi bi-whatsapp icns__ico"></i>
                     </div>
                     <div className="footer__pt2">
                         <h4>
