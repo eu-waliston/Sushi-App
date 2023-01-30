@@ -9,4 +9,4 @@
 
 
 ### APP
-https://sushi-app-986f7.web.app/
+https://sushi-app-one.vercel.app/
