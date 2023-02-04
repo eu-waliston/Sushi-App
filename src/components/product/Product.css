@@ -85,7 +85,7 @@
 }
 
 /* ======== responsivity ========= */
-
+/* MOBILE */
 @media screen and (max-width: 600px) {
     .product__section {
         top: 0;
