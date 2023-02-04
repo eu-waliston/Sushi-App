@@ -4,9 +4,9 @@ import "./Main.css";
 const Main = () => {
   return (
     <div className="main__section">
-      <h className="main__h1">
+      <h1 className="main__h1">
         <span> <img src={require("../assets/logo.png")} alt="logo" className="main__logo"/>Luscious Yakitori</span>
-      </h>
+      </h1>
 
       <h4 className="main__p">
       Sushi & Restaurant

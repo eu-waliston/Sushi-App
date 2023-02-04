@@ -21,7 +21,7 @@
 .main__logo {
   width: 150px;
   position: relative;
-  top: 4.5%;
+  top: 40px;
 }
 
 span {
@@ -67,6 +67,49 @@ span {
 }
 
 /* === resposivity === */
+
+
+/* MOBILE */
 @media screen and (max-width: 600px) {
-  
+  span {
+    font-size: 80%;
+  }
+  .main__logo {
+    width: 0px;
+    visibility: hidden;
+  }
+  .main__section {
+    top: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+  }
+
+  .main__p  {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #21243d;
+    width: 270px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .main__btn {
+    height: 5%;
+    width: 20%;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  span {
+    font-size: 60%;
+  }
+
+  .main__btn {
+    height: 5%;
+    width: 18%;
+    font-size: 12px;
+  }
 }
