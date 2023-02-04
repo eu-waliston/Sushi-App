@@ -1,18 +1,35 @@
-import { React } from "react";
+import React from "react";
+
 import "./Menu.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
 
+/*
+  toggle infos 
+  State
+  const [isNavExpanded, setIsNavExpanded] = React.useState(false)
+
+  toToggle
+  {isNavExpanded ? "nav" : "nav__responsive"}
+  {isNavExpanded ? "navbar" : "navbar__responsive"}
+
+  onClick
+  onClick={() => {setIsNavExpanded(!isNavExpanded)}}
+*/
+
 const Menu = () => {
+  const [isNavExpanded, setIsNavExpanded] = React.useState(false)
+
   return (
-    <div className="nav">
+    <div className={isNavExpanded ? "nav" : "nav__responsive"}>
+      <i className="bi bi-list" onClick={() => { setIsNavExpanded(!isNavExpanded) }}></i>
       <img
         src={require("../assets/logo.png")}
         alt="logo"
         className="logo__img"
       />
+      <ul className={isNavExpanded ? "navbar" : "navbar__responsive"}>
 
-      <ul className="navbar">
         <li className="navbar__itens">
           <Link to={"/"} className="navbar_LK">
             home
@@ -35,8 +52,8 @@ const Menu = () => {
           </Link>
         </li>
         <li className="navbar__itens">
-          <Link to={"/contact"}  className="navbar_LK">
-          contact
+          <Link to={"/contact"} className="navbar_LK">
+            contact
           </Link>
         </li>
       </ul>

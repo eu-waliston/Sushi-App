@@ -23,7 +23,13 @@
     display: flex;
     float: right;
     margin-right: 10%;
-    
+}
+
+.navbar_rp {
+    display: flex;
+    float: right;
+    margin-right: 10%;
+    visibility: hidden; 
 }
 
 .navbar__itens {
@@ -46,4 +52,58 @@
 .navbar_LK{
     text-decoration: none;
     color: #fff;
+}
+
+
+.bi-list {
+    visibility: hidden;
+}
+
+/* ===== RESPONSIVITY ====== */
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+
+    .bi-list {
+        position: relative;
+        color: #ffffff;
+        font-size: 40px;
+        top: 12px;
+        margin-left: -100px;
+        visibility: visible;
+        background-color: #21243D;
+        border-radius: 5px;
+
+        position: fixed;
+        cursor: pointer;
+    }
+
+    .logo__img {
+        visibility: hidden;
+    }
+
+    .nav {
+        width: 0;
+    }
+
+    .nav__responsive {
+        background-color: #21243D;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        box-shadow: 12px 12px 12px rgba(29, 28, 28, 0.171);
+        z-index: 2;
+    }
+
+    .navbar {
+        visibility: hidden;
+    }
+
+    .navbar__responsive {
+        display: grid;
+        grid-template-columns: repeat(1, 150px);
+        float: left;
+        gap: 50px;
+    }
 }

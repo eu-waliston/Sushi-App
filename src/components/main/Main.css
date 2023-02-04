@@ -35,33 +35,38 @@ span {
 }
 
 .main__p {
-    color: #ffffff;
-    position: relative;
-    top: 27%;
-    font-size: 50px;
-    margin-left: 15%;
+  color: #ffffff;
+  position: relative;
+  top: 27%;
+  font-size: 50px;
+  margin-left: 15%;
 }
 
 .main__btn {
-    position: relative;
-    top: 32%;
-    font-size: 20px;
-    margin-left: 15%;
-    height: 7%;
-    width: 10%;
-    border-radius: 30px;
-    text-transform: uppercase;
-    color: #21243d;
-    font-weight: bold;
-    background-color: #ffffff;
-    border: 1px solid  #21243d;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
+  position: relative;
+  top: 32%;
+  font-size: 20px;
+  margin-left: 15%;
+  height: 7%;
+  width: 10%;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #21243d;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #21243d;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
 }
 
 .main__btn:hover {
-    transition: all 0.9s;
-    color: #ffffff;
-    background-color: #21243d;
-    cursor: pointer;
-    border: 1px solid  #ffffff;
+  transition: all 0.9s;
+  color: #ffffff;
+  background-color: #21243d;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+
+/* === resposivity === */
+@media screen and (max-width: 600px) {
+  
 }
