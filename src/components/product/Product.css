@@ -83,3 +83,45 @@
     transition: all 1.5s;
     transform: rotate(360deg);
 }
+
+
+/* MOBILE */
+@media screen and (max-width: 400px) {
+    .shape__wave1, .shape__dot1, .shape__ball1, .shape__dot2, .shape__wave2, .shape__ball2 {
+        visibility: hidden;
+        width: 0;
+    }
+
+    .product__section {
+        height: 120vh;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        background-color: #21243d;
+        overflow: hidden;
+    }
+
+    .product__h1 {
+        font-size: 35px;
+        top: 30px;
+        color: #ffff;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .grid__item  img {
+        border-radius: 100%;
+        width: 130px;
+    }
+
+    .grid__item {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+        top: 70px;
+    }
+}
