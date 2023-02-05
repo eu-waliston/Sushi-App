@@ -54,4 +54,52 @@
     color: #fff;
 }
 
-/* ===== RESPONSIVITY ====== */
+.bi-list {
+    visibility: hidden;
+    width: 0;
+}
+/* === resposivity === */
+
+/* MOBILE */
+@media screen and (max-width: 400px) {
+    .logo__img  {
+        visibility: hidden;
+    }
+
+    .bi-list {
+        visibility: visible;
+        color: #ffffff;
+        font-size: 40px;
+        position: fixed;
+        top: 15px;
+        margin-left: 10px;
+    }
+
+    .bi-list:hover {
+        color: #ffffff; 
+        transition: all 0.9s;
+        cursor: pointer;
+    }
+
+
+    .navbar {
+        display: grid;
+        float: left;
+        margin-right: 10%;
+        row-gap: 25px;
+    }
+
+    .nav  {
+        visibility: hidden;
+    }
+
+    .nav__resposive {
+        background-color: #21243D;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        box-shadow: 12px 12px 12px rgba(29, 28, 28, 0.171);
+        z-index: 999999;
+    }
+}
