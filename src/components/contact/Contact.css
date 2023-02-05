@@ -201,7 +201,7 @@
         z-index: 1;
         border: 0;
         position: relative;
-        top: 120px;
+        top: 190px;
         margin-right: 70px;
         border-radius: 10px;
         box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.123);
@@ -289,7 +289,7 @@
 
     .dev {
         position: relative;
-        top: 30px;
+        top: 50px;
         margin-left: 80px;
         font-size: 15px;
         width: 180px;
