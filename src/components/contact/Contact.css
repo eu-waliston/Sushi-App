@@ -126,14 +126,14 @@
     cursor: pointer;
 }
 
-.footer__grid  h4 {
+.footer__grid h4 {
     font-size: 28px;
     margin-bottom: 15px;
 }
 
 .footer__grid p {
     margin-top: 15px;
-    
+
 }
 
 .footer__grid p:hover {
@@ -145,6 +145,7 @@
     position: relative;
     top: -34px;
 }
+
 .footer__pt1 h4 {
     position: relative;
     top: -30px;
@@ -161,6 +162,7 @@
     font-size: 28px;
     left: -5px;
 }
+
 .footer__pt4 p {
     position: relative;
     top: -30px;
@@ -178,4 +180,205 @@
     width: 320px;
     left: -480px;
     top: -20px;
+}
+
+/* ======== responsivity ========= */
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+
+    .contact__img1,
+    .contact__img2,
+    .contact__img3,
+    .contact__img4,
+    .contact__img5 {
+        visibility: hidden;
+        width: 0;
+    }
+
+
+    .map__style {
+        z-index: 1;
+        border: 0;
+        position: relative;
+        top: 170px;
+        margin-right: 70px;
+        border-radius: 10px;
+        box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.123);
+        width: 590px;
+        left: 65px;
+        height: 450px;
+    }
+
+    .subs__form {
+        text-align: center;
+        position: relative;
+        left: 5px;
+        top: 200px;
+        color: #21243d;
+    }
+
+    .sub__h1 {
+        font-size: 55px;
+        position: relative;
+        top: -120px;
+    }
+
+    .subs__p {
+        font-size: 20px;
+        margin-top: 15px;
+        text-transform: capitalize;
+
+        position: relative;
+        top: -120px;
+    }
+
+    .sub__input {
+        height: 50px;
+        width: 270px;
+        border-radius: 40px;
+        border: none;
+        font-size: 16px;
+        position: relative;
+        top: -120px;
+    }
+
+    .subs__btn {
+        background-color: #21243d;
+        height: 50px;
+        width: 130px;
+        position: relative;
+        right: 35px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        position: relative;
+        top: -120px;
+    }
+
+    .logo__foter {
+        visibility: hidden;
+        width: 0;
+    }
+
+    .footer__grid {
+        display: grid;
+        color: #ffffff;
+        grid-template-columns: repeat(4, 150px);
+        position: relative;
+        top: 50px;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+    .contact__section {
+        width: 100%;
+        height: 140vh;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .map__style {
+        z-index: 1;
+        border: 0;
+        position: relative;
+        top: 220px;
+        margin-right: 70px;
+        border-radius: 10px;
+        box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.123);
+        width: 442px;
+        left: 65px;
+        height: 400px;
+    }
+
+    .subs__form {
+        text-align: center;
+        position: relative;
+        left: -87px;
+        top: 200px;
+        color: #21243d;
+    }
+
+    .sub__h1 {
+        font-size: 55px;
+        position: relative;
+        top: -120px;
+    }
+
+    .subs__p {
+        font-size: 18px;
+        margin-top: 15px;
+        text-transform: capitalize;
+
+        position: relative;
+        top: -120px;
+    }
+
+    .sub__input {
+        height: 50px;
+        width: 270px;
+        border-radius: 40px;
+        border: none;
+        font-size: 16px;
+        position: relative;
+        top: -120px;
+        margin-left: 40px;
+    }
+
+    .subs__btn {
+        background-color: #21243d;
+        height: 50px;
+        width: 130px;
+        position: relative;
+        right: 35px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        position: relative;
+        top: -120px;
+    }
+
+    .logo__foter {
+        visibility: hidden;
+        width: 0;
+    }
+
+    .footer__grid {
+        display: grid;
+        color: #ffffff;
+        position: relative;
+        top: 50px;
+        margin-left: 30px;
+        cursor: pointer;
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .contact__section {
+        width: 100%;
+        height: 120vh;
+        overflow: hidden;
+    }
+
+    #ds, .footer__pt2, .footer__pt3, .footer__pt4 {
+        display: none;
+    }
+
+    .dev {
+        position: relative;
+        top: 20px;
+        width: 180px;
+        margin-left: 230px;
+    }
+
+    .icns__ico {
+        top: -25px;
+    }
 }

@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             <div className="contact__inside__section2">
                 <div className="footer__grid">
-                <img src={require("../assets/logo.png")} alt="logo" className="logo__foter" />
+                    <img src={require("../assets/logo.png")} alt="logo" className="logo__foter" />
                     <div className="footer__pt1">
                         <h4>Lucius Yakitori</h4>
                         <p id="ds">
