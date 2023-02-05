@@ -18,18 +18,22 @@ import { Link } from "react-router-dom";
 */
 
 const Menu = () => {
-  const [isNavExpanded, setIsNavExpanded] = React.useState(false)
+  const [isNavExpanded, setIsNavExpanded] = React.useState("nav")
+
+  const toggleClass = () => {
+    setIsNavExpanded(!isNavExpanded)
+  }
 
   return (
     <div className={isNavExpanded ? "nav" : "nav__responsive"}>
-      <i className="bi bi-list" onClick={() => { setIsNavExpanded(!isNavExpanded) }}></i>
+      <i className="bi bi-list" onClick={toggleClass}></i>
       <img
         src={require("../assets/logo.png")}
         alt="logo"
         className="logo__img"
       />
-      <ul className={isNavExpanded ? "navbar" : "navbar__responsive"}>
 
+      <ul className={isNavExpanded ? "navbar" : "navbar__responsive"}>
         <li className="navbar__itens">
           <Link to={"/"} className="navbar_LK">
             home
