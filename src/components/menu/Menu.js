@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Menu.css";
+import './Menu.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
 
