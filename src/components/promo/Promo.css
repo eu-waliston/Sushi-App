@@ -115,6 +115,14 @@
     right: -194px;
 }
 
+
+
+
+
+
+
+
+
 /* ---------- PROMO SECTION 2 ---------------- */
 .promo__section2 {
     height: 100vh;
@@ -205,4 +213,105 @@
     position: relative;
     left: 200px;
     top: 250px;
+}
+
+/* MOBILE */
+@media screen and (max-width: 400px) {
+    .left__sideIMG3, .right__side__IMG1, .right__side__IMG2, .right__side__IMG3, .img__dot__bds, .img__wave__wav, .img__dot__rightside__dot, .img__wave__ball {
+        visibility: hidden;
+        width: 0;
+    }
+
+    .promo__section1 {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .left__sideIMG1 {
+        position: relative;
+        z-index: 1;
+        margin-left: -100px;
+        top: 80px;
+        width: 100px;
+    }
+    
+    .left__sideIMG2 {
+        width: 250px;
+        border-radius: 100%;
+        position: relative;
+        left: 65px;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .right__side__h1, .right__side__h3, .right__side__p, .right__side__btn {
+        position: relative;
+        right: 30px;
+        top: -70px;
+    }
+
+    .right__side__h1 {
+        font-size: 35px;
+    }
+
+    .right__side__btn {
+        position: relative;
+        height: 40px;
+        width: 120px;
+        font-size: 17px;
+        top: 5px;
+        position: relative;
+    }
+
+    /*section 2*/
+    .promo__section2 {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden; 
+    }
+    .rightside__img__dot {
+        position: relative;
+        z-index: 1;
+        right: 420px;
+        top: -240px;
+        width: 100px;
+    }
+
+    .img__right__side {
+        width: 250px;
+        border-radius: 100%;
+        position: relative;
+        margin-left: -145px;
+        top: -60px;
+        z-index: 1;
+    }
+
+    .left__side__h1, .left__side__h3, .left__side__p {
+        position: relative;
+        top: 450px;
+        left: 50px;
+    }
+
+    .left__side__h1 {
+        font-size: 35px; 
+    }
+
+    .left__side__btn {
+        position: relative;
+        color: #21243d;
+        font-weight: bold;
+        background-color: #ffffff;
+        border: 1px solid  #21243d;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.24);
+        text-transform: capitalize;
+        height: 40px;
+        width: 120px;
+        border-radius: 50px;
+        font-size: 17px;
+        top: 520px;
+        margin-left: 50px;
+        position: relative;
+    }
+
 }
