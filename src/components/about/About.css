@@ -160,7 +160,7 @@
         text-align: center;
         position: relative;
         top: 30px;
-        font-size: 50px;
+        font-size: 45px;
         color: #ffff;
         text-transform: capitalize;
     }
@@ -182,7 +182,7 @@
     }
 
     .about__section__card {
-        width: 200px;
+        width: 190px;
     }
 
 
