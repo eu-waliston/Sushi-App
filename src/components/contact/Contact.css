@@ -201,7 +201,7 @@
         z-index: 1;
         border: 0;
         position: relative;
-        top: 190px;
+        top: 119px;
         margin-right: 70px;
         border-radius: 10px;
         box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.123);
@@ -221,8 +221,8 @@
     .sub__h1 {
         font-size: 45px;
         position: relative;
-        top: -140px;
-        margin-left: -330px;
+        top: -160px;
+        margin-left: -250px;
     }
 
     .subs__p {
@@ -231,8 +231,8 @@
         text-transform: capitalize;
 
         position: relative;
-        top: -130px;
-        margin-left: -330px;
+        top: -160px;
+        margin-left: -280px;
     }
 
     .sub__input {
@@ -242,8 +242,8 @@
         border: none;
         font-size: 16px;
         position: relative;
-        top: -140px;
-        margin-left: -300px;
+        top: -170px;
+        margin-left: -240px;
     }
 
     .subs__btn {
@@ -259,7 +259,7 @@
         text-transform: uppercase;
 
         position: relative;
-        top: -140px;
+        top: -170px;
     }
 
     .logo__foter {
@@ -289,7 +289,7 @@
 
     .dev {
         position: relative;
-        top: 50px;
+        top: 30px;
         margin-left: 80px;
         font-size: 15px;
         width: 180px;

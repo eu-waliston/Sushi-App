@@ -70,9 +70,11 @@
         visibility: visible;
         color: #ffffff;
         font-size: 40px;
-        position: fixed;
         top: 15px;
-        margin-left: 10px;
+        margin-left: 20px;
+        background-color: #21243D !important;
+        position: fixed !important;
+        z-index: 20;
     }
 
     .bi-list:hover {
@@ -100,6 +102,6 @@
         position: fixed;
         top: 0;
         box-shadow: 12px 12px 12px rgba(29, 28, 28, 0.171);
-        z-index: 999999;
+        z-index: 10;
     }
 }
