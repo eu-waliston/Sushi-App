@@ -185,7 +185,7 @@
 /* ======== responsivity ========= */
 
 /* MOBILE */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 
     .contact__img1,
     .contact__img2,
@@ -201,13 +201,13 @@
         z-index: 1;
         border: 0;
         position: relative;
-        top: 170px;
+        top: 190px;
         margin-right: 70px;
         border-radius: 10px;
         box-shadow: 4px 9px 12px rgba(0, 0, 0, 0.123);
-        width: 590px;
-        left: 65px;
-        height: 450px;
+        width: 400px;
+        left: 75px;
+        height: 400px;
     }
 
     .subs__form {
@@ -219,34 +219,37 @@
     }
 
     .sub__h1 {
-        font-size: 55px;
+        font-size: 45px;
         position: relative;
-        top: -120px;
+        top: -140px;
+        margin-left: -330px;
     }
 
     .subs__p {
-        font-size: 20px;
-        margin-top: 15px;
+        font-size: 15px;
+        margin-top: 10px;
         text-transform: capitalize;
 
         position: relative;
-        top: -120px;
+        top: -130px;
+        margin-left: -330px;
     }
 
     .sub__input {
         height: 50px;
-        width: 270px;
+        width: 220px;
         border-radius: 40px;
         border: none;
         font-size: 16px;
         position: relative;
-        top: -120px;
+        top: -140px;
+        margin-left: -300px;
     }
 
     .subs__btn {
         background-color: #21243d;
         height: 50px;
-        width: 130px;
+        width: 110px;
         position: relative;
         right: 35px;
         border-radius: 40px;
@@ -256,7 +259,7 @@
         text-transform: uppercase;
 
         position: relative;
-        top: -120px;
+        top: -140px;
     }
 
     .logo__foter {
@@ -267,10 +270,10 @@
     .footer__grid {
         display: grid;
         color: #ffffff;
-        grid-template-columns: repeat(4, 150px);
+        grid-template-columns: repeat(2, 210px);
         position: relative;
         top: 50px;
-        margin-left: 30px;
+        margin-left: 15px;
         cursor: pointer;
     }
 
@@ -278,5 +281,17 @@
         width: 100%;
         height: 140vh;
         overflow: hidden;
+    }
+
+    #ds, .footer__pt3, .footer__pt4 {
+        display: none;
+    }
+
+    .dev {
+        position: relative;
+        top: 55px;
+        margin-left: 80px;
+        font-size: 15px;
+        width: 180px;
     }
 }
