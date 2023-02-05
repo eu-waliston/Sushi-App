@@ -9,4 +9,5 @@
 
 
 ### APP
-https://sushi-app-one.vercel.app/
+
+https://sushi-app-ln39.vercel.app/
