@@ -76,7 +76,7 @@ const Contact = () => {
                         <p>privacy</p>
                     </div>
 
-                    <h5 className="dev">Developed by &copy; WeSantos</h5>
+                    <a className="dev" href="https://github.com/eu-waliston" target="_blank" rel="noreferrer">Developed by &copy; WeSantos</a>
                 </div>
             </div>
         </div>

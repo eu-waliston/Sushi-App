@@ -169,10 +169,16 @@
 }
 
 .dev {
-    position: absolute;
-    top: 290px;
-    margin-left: 300px;
+    position: relative;
+    top: 110px;
+    /* margin-left: 300px; */
     font-size: 15px;
+}
+
+a{
+    list-style: none;
+    color:#fff;
+    text-decoration: none;
 }
 
 .logo__foter {
