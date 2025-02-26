@@ -3,7 +3,7 @@ import "./Promo.css";
 
 const Promo = () => {
   return (
-    <div className="promo__section">
+    <div className="promo__section" id="promo">
       <div className="promo__section1">
         <div className="left__side">
           <img

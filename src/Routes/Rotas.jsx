@@ -11,6 +11,11 @@ function Rotas() {
     return (
         <Routes>
         <Route exact path="/" element={[<Main />, <Product />, <Promo />, <About />, <Contact />]} />
+        <Route exact path="/" element={<Main />} />
+        <Route exatc path="/product" element={<Product />} />
+        <Route exatc path="/promo" element={<Promo />} />
+        <Route exatc path="/about" element={<About />} />
+        <Route exatc path="/contact" element={<Contact />} />
       </Routes>
     )
 }

@@ -4,13 +4,13 @@
 /* ----- promo section master ------*/
 .promo__section {
     background-color: var(--promo--font);
-    height: 200vh;
+    height: 220vh;
     width: 100%;
 }
 /*------ PROMO SECTION 1 -------*/
 .promo__section1 {
     height: 100vh;
-    width: 100%; 
+    width: 100%;
 }
 .left__side {
     float: left;
@@ -126,7 +126,7 @@
 /* ---------- PROMO SECTION 2 ---------------- */
 .promo__section2 {
     height: 100vh;
-    width: 100%; 
+    width: 100%;
 }
 
 .img__right__side {
@@ -207,7 +207,7 @@
 .left__side__h3, .left__side__p {
     position: relative;
     top: 320px;
-    left: 210px;  
+    left: 210px;
 }
 .img__wave__wav {
     position: relative;
@@ -235,7 +235,7 @@
         top: 80px;
         width: 100px;
     }
-    
+
     .left__sideIMG2 {
         width: 250px;
         border-radius: 100%;
@@ -268,7 +268,7 @@
     .promo__section2 {
         height: 100vh;
         width: 100%;
-        overflow: hidden; 
+        overflow: hidden;
     }
     .rightside__img__dot {
         position: relative;
@@ -294,7 +294,7 @@
     }
 
     .left__side__h1 {
-        font-size: 35px; 
+        font-size: 35px;
     }
 
     .left__side__btn {

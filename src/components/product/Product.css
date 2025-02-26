@@ -1,5 +1,5 @@
 .product__section {
-    height: 92.7vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     top: 49px;
@@ -15,7 +15,7 @@
     justify-content: center;
     gap: 50px;
     position: relative;
-    top: -70px;
+    top: 60px;
 }
 
 .grid__item  img {
@@ -30,13 +30,13 @@
 .product__h1 {
     font-size: 70px;
     text-transform: capitalize;
-    margin-bottom: 15px;
+    /* margin-bottom: 10px; */
     position: relative;
     margin-left: 120px;
-    
+
     text-align: center;
     position: relative;
-    top: -8%;
+    top: 2%;
     color: #ffff;
 }
 

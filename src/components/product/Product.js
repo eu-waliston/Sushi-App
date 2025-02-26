@@ -3,7 +3,7 @@ import "./Product.css";
 
 const Product = () => {
     return (
-        <div className="product__section">
+        <div className="product__section" id="Product">
             <img src={require("../assets/shape__wave1.png")} alt="item" className="shape__wave1" />
             <img src={require("../assets/shape__dot1.png")} alt="item" className="shape__dot1" />
             <img src={require("../assets/shape_ball1.png")} alt="item" className="shape__ball1" />
